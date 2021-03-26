@@ -14,5 +14,8 @@ async function getDiningHalls() {
 
 
 }
-
-getDiningHalls();
+async function windowActions() {
+    getDiningHalls();
+  }
+  
+  window.onload = windowActions;
